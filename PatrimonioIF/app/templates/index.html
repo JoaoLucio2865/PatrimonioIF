@@ -6,6 +6,10 @@
   <title>Página Inicial</title>
   <!-- Incluindo Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+z0I5t9z2eDbJ7tey9sAN1QSHOHsGL5Ybpe1TI6" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-DWLp5re2LlktbP0AveOcBx3u2uu8LBRQjF/XB4VBCZB9z80l1pLWavH/rtPSeypJ" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/js/bootstrap.min.js" integrity="sha384-fR8AnknAg0ft5a+4eXbL6L6U2E7ryyti1+iBj19LvBh5fMucD4I6C9ST0l7LqDz7" crossorigin="anonymous"></script>
+
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-success">
@@ -57,14 +61,60 @@
 
   <div class="container mt-5">
     <div class="row">
-      <div class="col-md-4">
-        <img src="https://portal.tco.ifsuldeminas.edu.br/images/Campus/marcaoficial/IntitutoFederal-aplica%C3%A7%C3%B5es-horizontais-02.png" width="100%">
+      <div class="col-md-6 text-center">
+        <img src="https://portal.tco.ifsuldeminas.edu.br/images/Campus/marcaoficial/IntitutoFederal-aplica%C3%A7%C3%B5es-horizontais-02.png" class="img-fluid" alt="IFSULDEMINAS Logo">
+      </div>
+      <div class="col-md-6 align-self-center">
+        <div class="jumbotron text-center">
+          <h1 class="display-4">Olá, é bom te ver por aqui</h1>
+          <p class="lead">Esta é a página inicial do Controle de Patrimônio</p>
+          <p class="lead">Seja Bem Vindo(A)</p>
+        </div>
       </div>
     </div>
-    <div class="jumbotron text-center">
-      <h1 class="display-4">Olá, é bom te ver por aqui</h1>
-      <p class="lead">Esta é a página inicial da controle de Patrimonio</p>
-      <p class="lead">Seja Bem Vindo(A)</p>
+  </div>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8 offset-md-2 text-center">
+        <h2>Bem-Vindo ao Controle de Patrimônio do IFSULDEMINAS</h2>
+        <p>
+          Nossa missão é fornecer uma plataforma eficiente para o gerenciamento e controle de patrimônio,
+          garantindo que os recursos da instituição sejam utilizados de maneira transparente e responsável.
+        </p>
+        <p>
+          Explore as funcionalidades do sistema e facilite o acompanhamento dos ativos, contribuindo para
+          a eficiência operacional e a preservação do patrimônio do Instituto Federal do Sul de Minas Gerais.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container col-md-6">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://www.muz.ifsuldeminas.edu.br/images/2021/06/cursos_fic/2_Guarita_0270.JPG" class="d-block w-100" alt="Imagem 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://portal.ifs.ifsuldeminas.edu.br/arquivos/noticias/2020/1200/Toten_2.jpg" class="d-block w-100" alt="Imagem 2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://pocosdecaldas.mg.gov.br/wp-content/uploads/2019/08/ifsuldeminas-fachada.jpg" class="d-block w-100" alt="Imagem 3">
+        </div>
+        <div class="carousel-item">
+          <img src="https://portal.pas.ifsuldeminas.edu.br/images/1_Campus_Passos/2018/Nov/Fachada_Campus_Passos.png" class="d-block w-100" alt="Imagem 4">
+        </div>
+        <div class="carousel-item">
+          <img src="https://terradomandu.com.br/wp-content/uploads/2019/10/IFSULDEMINAS-CAMPUS-POUSO-ALEGRE-FOTO-TERRA-DO-MANDU.jpg" class="d-block w-100" alt="Imagem 5">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
     </div>
   </div>
 
